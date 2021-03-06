@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eloquent UI</title>
     <link rel="stylesheet" href="app.css">
 </head>
+
 <body>
-    <h1>Eloquent UI</h1>
+    <header class="header-container">
+        <h1 id="header-title"> Eloquent UI </h3>
+            <ul class="list">
+                <li class="list-items"><a class="link-item" href="/">Home</a></li>
+                <li class="list-items"><a class="link-item" href="/"> Docs</a></li>
+                <li class="list-items"><a class="link-item" href="/"> Examples</a></li>
+            </ul>
+    </header>
+    <hr>
+    <div class="avatar-container">
+        <h2>Avatar</h2>
+        <p style="margin-top: 1rem;">The Avatar component is used to represent a user, and displays the profile picture, initials or fallback
+            icon.
+        </p>
+        <img alt="Avatar" src="https://bit.ly/dan-abramov" class="avatar" />
+        <img alt="Avatar" src="/user.svg" class="avatar" />
+        <div class="initials">
+            <span class="avatar-circle">SG</span>
+        </div>
+    </div>
+    <hr>
 
     <script src="app.js"></script>
 </body>
+
 </html>
