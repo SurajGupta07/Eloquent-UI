@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bs-blue: #91C8FF;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --gray-body: #F7FAFC;
+    --aside: #F9FAFB;
+    --text: rgb(17, 17, 17);
+}
+
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    color: var(--text);
+    letter-spacing: 1px;
+}
+
+/* For Image Avatar */
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Avatar with Initials */
+.avatar-circle {
+    width: 80px;
+    height: 80px;
+    padding: 14px;
+    background-color: var(--bs-purple);
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}

@@ -1,0 +1,95 @@
+:root {
+    --bs-blue: #91C8FF;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --gray-body: #F7FAFC;
+    --aside: #F9FAFB;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+/* Header Container */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.list .list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px 0px 0px;
+    font-size: large;
+}
+
+.link-item {
+    text-decoration: none;
+    color: var(--text);
+}
+
+#header-title {
+    margin: 3rem 0rem 3rem 1rem;
+}
+
+/* Avatar Container */
+
+.avatar-container {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.avatar-display {
+    padding-left: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: 85px !important;
+    width: 300px !important;
+}
+
+/* Image avatar container */
+.avatar-image {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Avatar with no profile pic container */
+.avatar-user {
+    position: relative;
+    top: -4rem;
+    left: 6rem;
+}
+
+/* Avatar with Initials */
+.initials {
+    position: relative;
+    top: -6.2rem;
+    left: 11rem;
+    /* 25% of parent */
+    font-size: 20px;
+    /* 50% of parent */
+    line-height: 20px;
+    /* 50% of parent */
+}
+
+/* Aside Container */
+.aside-container {
+    margin-top: 1rem;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.title-aside {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Lists */
+.ordered-list{
+    margin: 1rem 0rem 0rem 2rem;
+}
