@@ -12,6 +12,7 @@ h2 {
 
 hr{
     margin-top: 1rem;
+    margin-bottom: 1rem;;
     border: 1px solid black;
 }
 
@@ -41,7 +42,7 @@ hr{
 
 /* Avatar Container */
 
-.avatar-container {
+.component-container {
     margin-top: 1rem;
     margin-left: 1rem;
 }
@@ -98,4 +99,15 @@ hr{
 /* Lists */
 .ordered-list {
     margin: 1rem 0rem 0rem 2rem;
+}
+
+/* Alert Container */
+.alert-display{
+    padding-left: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin: 1rem;
 }

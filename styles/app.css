@@ -43,3 +43,81 @@ body {
     font-family: "Courier New", monospace;
     font-weight: bold;
 }
+
+/* Alert Component */
+.alert-wrong {
+    padding: 20px;
+    background-color: #f44336;
+    color: black;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.alert-success{
+    padding: 20px;
+    background-color: rgb(35, 202, 35);
+    color: black;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.alert-warning{
+    padding: 20px;
+    background-color: rgb(236, 236, 87);
+    color: black;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.alert-info{
+    padding: 20px;
+    background-color: rgb(131, 131, 248);
+    color: black;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+/* Alert Buttons */
+.successBtn{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closeBtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.warningBtn{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.infoBtn{
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
