@@ -10,6 +10,11 @@ h2 {
     margin: 1rem;
 }
 
+hr{
+    margin-top: 1rem;
+    border: 1px solid black;
+}
+
 /* Header Container */
 
 .header-container {
@@ -48,6 +53,7 @@ h2 {
     background-color: white;
     height: 85px !important;
     width: 300px !important;
+    margin-left: 1rem;
 }
 
 /* Image avatar container */
@@ -90,6 +96,6 @@ h2 {
 }
 
 /* Lists */
-.ordered-list{
+.ordered-list {
     margin: 1rem 0rem 0rem 2rem;
 }
