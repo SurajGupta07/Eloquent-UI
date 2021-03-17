@@ -11,9 +11,10 @@ h2 {
 }
 
 hr{
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;;
     border: 1px solid black;
+    opacity: 0;
 }
 
 /* Header Container */
@@ -44,7 +45,7 @@ hr{
 
 .component-container {
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .avatar-display {
@@ -86,8 +87,6 @@ hr{
 /* Aside Container */
 .aside-container {
     margin-top: 1rem;
-    overflow-y: scroll;
-    height: 80vh;
 }
 
 .title-aside {
@@ -99,15 +98,86 @@ hr{
 /* Lists */
 .ordered-list {
     margin: 1rem 0rem 0rem 2rem;
+    position: fixed;
 }
 
 /* Alert Container */
 .alert-display{
-    padding-left: 1rem;
+    padding: 1rem;
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
     height: auto;
     width: auto;
     margin: 1rem;
+}
+
+/* Badge Conatiner */
+
+.badge-conatiner{
+    border: 1px solid black;
+    width: 400px;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Code Snippet */
+.code-snippets{
+    margin: 1rem;
+    width: 1000x !important; 
+    height: 500px; 
+    border:0;
+    overflow-y: hidden !important;
+}
+
+/* Buttons Container */
+
+.default-button-container{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    border: 1px solid black;
+    width: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.code-box{
+    margin-top: 2rem;
+    margin-left: 2rem !important;
+}
+
+/* Card */
+.card-container{
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+    margin-right: 5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card-code-box{
+    margin-top: 2rem;
+    margin-left: 8rem !important;
+}
+
+/* Images */
+
+.image-container{
+    position: relative;
+    padding: 1rem;
+    border-width: 0.2rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+.input-container{
+  margin-top: 1rem;
+  margin-left: 1rem;
 }

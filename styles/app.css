@@ -19,6 +19,7 @@ body {
     overflow-x: hidden;
     color: var(--text);
     letter-spacing: 1px;
+    scroll-behavior: smooth;
 }
 
 /* For Image Avatar */
@@ -53,7 +54,7 @@ body {
     margin: 1rem;
 }
 
-.alert-success{
+.alert-success {
     padding: 20px;
     background-color: rgb(35, 202, 35);
     color: black;
@@ -61,7 +62,7 @@ body {
     margin: 1rem;
 }
 
-.alert-warning{
+.alert-warning {
     padding: 20px;
     background-color: rgb(236, 236, 87);
     color: black;
@@ -69,7 +70,7 @@ body {
     margin: 1rem;
 }
 
-.alert-info{
+.alert-info {
     padding: 20px;
     background-color: rgb(131, 131, 248);
     color: black;
@@ -78,7 +79,7 @@ body {
 }
 
 /* Alert Buttons */
-.successBtn{
+.successBtn {
     margin-left: 15px;
     color: black;
     font-weight: bold;
@@ -100,7 +101,7 @@ body {
     transition: 0.3s;
 }
 
-.warningBtn{
+.warningBtn {
     margin-left: 15px;
     color: black;
     font-weight: bold;
@@ -111,7 +112,7 @@ body {
     transition: 0.3s;
 }
 
-.infoBtn{
+.infoBtn {
     margin-left: 15px;
     color: black;
     font-weight: bold;
@@ -120,4 +121,568 @@ body {
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
+}
+
+/* Badge styles */
+.badge-default {
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: #E5E7EB;
+    overflow-wrap: break-word;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.badge-success {
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: #6EE7B7;
+    overflow-wrap: break-word;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.badge-removed {
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: #F87171;
+    overflow-wrap: break-word;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.badge-new {
+    border-width: 0px;
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: #DDD6FE;
+    overflow-wrap: break-word;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+/* Buttons */
+
+/* Button Examples */
+.default-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #A78BFA;
+    color: white;
+}
+
+.success-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #34D399;
+    color: white;
+}
+
+.danger-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #EF4444;
+    color: white;
+}
+
+.warning-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #FBBF24;
+    color: white;
+}
+
+.light-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #F9FAFB;
+    color: #111827;
+}
+
+.dark-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #1F2937;
+    color: #F9FAFB;
+}
+
+.default-button:hover {
+    color: #fff;
+    background-color: #6D28D9;
+    border-color: #6D28D9;
+}
+
+.success-button:hover {
+    color: #fff;
+    background-color: #10B981;
+    border-color: #10B981;
+}
+
+.danger-button:hover {
+    color: #fff;
+    background-color: #DC2626;
+    border-color: #DC2626;
+}
+
+.warning-button:hover {
+    color: #fff;
+    background-color: #F59E0B;
+    border-color: #F59E0B;
+}
+
+.light-button:hover {
+    color: #111827;
+    background-color: #F3F4F6;
+    border-color: #F3F4F6;
+}
+
+.dark-button:hover {
+    color: #fff;
+    background-color: #111827;
+    border-color: #111827;
+}
+
+/* Button Sizes */
+
+.button-large {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 60px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #3B82F6;
+    color: white;
+}
+
+.button-small {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 100px;
+    font-size: 15px;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    background: #3B82F6;
+    color: white;
+}
+
+/* Disabled Buttons */
+
+.disabled-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: not-allowed;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    opacity: 0.5;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #A78BFA;
+    color: white;
+}
+
+.disabled-default-button {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: not-allowed;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    opacity: 0.5;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 40px;
+    min-width: 200px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    background: #D1D5DB;
+    color: #111827;
+}
+
+.button-icon {
+    text-size-adjust: 100%;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    text-transform: none;
+    cursor: pointer;
+    padding: 0px;
+    display: inline-flex;
+    appearance: none;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: middle;
+    outline: none;
+    width: auto;
+    line-height: 1.2;
+    font-weight: 500;
+    height: 50px;
+    min-width: 150px;
+    font-size: 25px;
+    padding-inline-start: 10px;
+    background: #A78BFA;
+    color: white;
+}
+
+.email-icon {
+    padding-left: 10px;
+}
+
+/* Card Component */
+
+.card {
+    position: relative;
+    width: 18rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.card-img {
+    height: 180px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-link-button {
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #007bff;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+/* Images */
+
+.fluid-img {
+    display: inline-block;
+    height: 400px;
+    display: block;
+    width: 500px;
+    max-width: 100%;
+    cursor: pointer;
 }

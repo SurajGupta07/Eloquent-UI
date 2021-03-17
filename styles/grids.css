@@ -46,7 +46,7 @@ footer {
     body {
         margin: 0;
         display: grid;
-        grid-template-columns: auto 27% 27% 27%;
+        grid-template-columns: auto 25% 27% 27%;
         grid-template-rows: 10% 30% auto 10%;
         grid-template-areas:
             "header header header header"
