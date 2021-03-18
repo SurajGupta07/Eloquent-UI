@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1024px, initial-scale=1.0">
     <title>Input</title>
 </head>
-<body>
-    <div class="input-container">
-        <h1>Input</h1>
-        <p style="margin: 1rem;">Badges are used to highlight an item's status for quick recognition.
-        </p>
-        <h2>Usage</h2>
 
+<body>
+    <div class="input-container" id="input">
+        <h1>Input</h1>
+        <p style="margin: 1rem;">Input Component is used to get user an input in a text field,
+        </p>
+        <h2>Basic Input Usage</h2>
+        <div class="basic-input">
+            <input class="basic-input" type="text" placeholder="Basic Input Usage">
+        </div>
+        <h2>Changing size of Input</h2>
+        <p>Input Comes with four sizes</p>
+        <ul class="inp-size-list">
+            <li class="inp-list-item">xs (24px)</li>
+            <li class="inp-list-item">sm (32px)</li>
+            <li class="inp-list-item">md (40px)</li>
+            <li class="inp-list-item">lg (48px)</li>
+        </ul>
+        <div class="input-div">
+            <input class="exs-input" type="text" placeholder="extra small size">
+            <input class="s-input" type="text" placeholder="small size">
+            <input class="m-input" type="text" placeholder="medium size">
+            <input class="l-input" type="text" placeholder="large size">
+        </div>
+
+        <h2>Custom File Input</h2>
+
+        <div class="cutom-container">
+            <input type="file" class="input-upload">
+        </div>
+
+        <h2>Floating Input Field</h2>
+        <div class="floating-container">
+            <input type="text" class="forms-control" placeholder="Enter your message" required>
+            <label class="input-label">Enter your message</label>
+        </div>
     </div>
+    <hr>
 </body>
+
 </html>

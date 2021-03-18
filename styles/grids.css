@@ -29,6 +29,9 @@ aside {
 header {
     grid-area: header;
     background-color: var(--bs-blue);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 main {

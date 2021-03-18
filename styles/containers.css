@@ -109,7 +109,8 @@ hr{
     background-color: white;
     height: auto;
     width: auto;
-    margin: 1rem;
+    margin-right: 5rem;
+    margin-left: 1rem;
 }
 
 /* Badge Conatiner */
@@ -137,7 +138,7 @@ hr{
 .default-button-container{
     margin-top: 1rem;
     margin-left: 1rem;
-    margin-right: 3rem;
+    margin-right: 5rem;
     border: 1px solid black;
     width: auto;
     padding: 1rem;
@@ -180,4 +181,65 @@ hr{
 .input-container{
   margin-top: 1rem;
   margin-left: 1rem;
+}
+
+.input-div{
+    position: relative;
+    padding: 1rem;
+    border-width: 0.2rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+.inp-size-list{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.inp-list-item{
+    font-size: medium;
+    padding-bottom: 1rem;
+}
+
+.input-container p{
+    margin-left: 1rem;
+}
+
+.basic-input{
+    position: relative;
+    padding: 1rem;
+    border-width: 0.2rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    height: auto;
+}
+
+.cutom-container{
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-width: 0.2rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    height: auto;
+}
+
+.floating-container{
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-width: 0.2rem;
+    margin-left: 2rem;
+    margin-right: 5rem;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    height: auto;
 }

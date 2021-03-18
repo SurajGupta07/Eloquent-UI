@@ -686,3 +686,177 @@ body {
     max-width: 100%;
     cursor: pointer;
 }
+
+/* Input */
+
+.exs-input {
+    outline: 0px;
+    appearance: none;
+    height: 24px;
+    width: 20rem;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 1rem;
+    border-width: 1px;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.s-input {
+    outline: none;
+    height: 32px;
+    width: 20rem;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 1rem;
+    border-width: 1px;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.m-input {
+    outline: none;
+    height: 40px;
+    width: 20rem;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    border-width: 1px;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+    border-radius: 5px;
+}
+
+.l-input {
+    outline: none;
+    height: 48px;
+    width: 20rem;
+    padding-left: 10px;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 1rem;
+    border-width: 1px;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+    border-radius: 5px;
+}
+
+.basic-input {
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    line-height: inherit;
+    color: inherit;
+    width: auto;
+    outline: 0px;
+    position: relative;
+    appearance: none;
+    transition: all 0.2s ease 0s;
+    font-size: 20px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+}
+
+.input-upload {
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    padding-left: 0px !important;
+    overflow-wrap: break-word;
+    font-family: inherit;
+    overflow: visible;
+    line-height: inherit;
+    color: inherit;
+    width: auto;
+    outline: 0px;
+    position: relative;
+    appearance: none;
+    font-size: 20px;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    height: auto;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+}
+
+input[type="file"i]::-webkit-file-upload-button {
+    background-color: #E5E7EB;
+    font-size: 15px !important;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Floating Input Label */
+.input-label {
+    font-size: 1em;
+    color: #000;
+    display: block;
+    opacity: 0.6;
+    cursor: text;
+    transform: translateY(-2.5em);
+    padding-left: 1rem;
+    font-weight: 300;
+    font-size: medium;
+    font-style: normal !important;
+    transform-origin: 0 0;
+    transition: all .5s;
+}
+
+.forms-control {
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    vertical-align: middle;
+    border: 1px solid rgba(112, 128, 144, 0.48);
+    width: 500px;
+    height: 40px;
+    cursor: text !important;
+    transition: all .8s;
+    padding-left: 9.15px !important;
+    padding-top: 15px;
+    margin-top: 1rem;
+}
+
+.forms-control::placeholder {
+    opacity: 0;
+}
+
+.forms-control:focus {
+    box-shadow: none;
+    outline: none;
+    border-color: blue;
+}
+
+.forms-control:focus+.input-label,
+.forms-control:not(:placeholder-shown)+.input-label {
+    transform: translateY(-2.8em) scale(0.8);
+    padding-left: 12px !important;
+}
+
+.forms-control:focus::-webkit-input-placeholder {
+    opacity: 1;
+}
