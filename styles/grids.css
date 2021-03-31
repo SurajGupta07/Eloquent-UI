@@ -26,6 +26,10 @@ aside {
     background-color: var(--aside);
 }
 
+.list-item {
+    list-style: none;
+}
+
 header {
     grid-area: header;
     background-color: var(--bs-blue);
